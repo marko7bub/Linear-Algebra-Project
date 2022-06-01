@@ -9,7 +9,7 @@ data1 = np.array([
     [0, 2, 3, 2],
 ])
 
-def fill_the_ratings(data, k, alpha, lambd, epochs):
+def fill_the_ratings_normal(data, k, alpha, lambd, epochs):
 
     # Initialize the P and Q matrices with k latent features
     # and fill it with values of normal distribution
